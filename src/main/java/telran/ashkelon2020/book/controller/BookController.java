@@ -1,4 +1,4 @@
-package telran.ashkelon2020.boo.controller;
+package telran.ashkelon2020.book.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import telran.ashkelon2020.boo.dto.AuthorDto;
-import telran.ashkelon2020.boo.dto.BookDto;
-import telran.ashkelon2020.boo.service.BookService;
+import telran.ashkelon2020.book.dto.AuthorDto;
+import telran.ashkelon2020.book.dto.BookDto;
+import telran.ashkelon2020.book.service.BookService;
 
 @RestController
 public class BookController {

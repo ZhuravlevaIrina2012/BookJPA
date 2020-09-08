@@ -1,4 +1,4 @@
-package telran.ashkelon2020.boo.exceptions;
+package telran.ashkelon2020.book.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

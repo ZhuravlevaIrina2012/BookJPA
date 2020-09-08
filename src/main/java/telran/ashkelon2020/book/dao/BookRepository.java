@@ -1,4 +1,4 @@
-package telran.ashkelon2020.boo.dao;
+package telran.ashkelon2020.book.dao;
 
 import java.util.List;
 

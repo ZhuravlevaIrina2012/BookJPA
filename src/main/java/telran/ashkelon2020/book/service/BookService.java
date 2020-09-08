@@ -1,7 +1,7 @@
-package telran.ashkelon2020.boo.service;
+package telran.ashkelon2020.book.service;
 
-import telran.ashkelon2020.boo.dto.AuthorDto;
-import telran.ashkelon2020.boo.dto.BookDto;
+import telran.ashkelon2020.book.dto.AuthorDto;
+import telran.ashkelon2020.book.dto.BookDto;
 
 public interface BookService {
 

@@ -1,4 +1,4 @@
-package telran.ashkelon2020.boo.dao;
+package telran.ashkelon2020.book.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

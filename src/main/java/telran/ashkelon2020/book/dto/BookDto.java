@@ -1,4 +1,4 @@
-package telran.ashkelon2020.boo.dto;
+package telran.ashkelon2020.book.dto;
 
 import java.util.Set;
 

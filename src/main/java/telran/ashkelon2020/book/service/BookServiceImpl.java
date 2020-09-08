@@ -1,4 +1,4 @@
-package telran.ashkelon2020.boo.service;
+package telran.ashkelon2020.book.service;
 
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -8,13 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import telran.ashkelon2020.boo.dao.AuthorRepository;
-import telran.ashkelon2020.boo.dao.BookRepository;
-import telran.ashkelon2020.boo.dao.PublisherRepository;
-import telran.ashkelon2020.boo.dto.AuthorDto;
-import telran.ashkelon2020.boo.dto.BookDto;
-import telran.ashkelon2020.boo.exceptions.EntityNotFoundException;
-import telran.ashkelon2020.boo.exceptions.ForbiddenException;
+import telran.ashkelon2020.book.dao.AuthorRepository;
+import telran.ashkelon2020.book.dao.BookRepository;
+import telran.ashkelon2020.book.dao.PublisherRepository;
+import telran.ashkelon2020.book.dto.AuthorDto;
+import telran.ashkelon2020.book.dto.BookDto;
+import telran.ashkelon2020.book.exceptions.EntityNotFoundException;
+import telran.ashkelon2020.book.exceptions.ForbiddenException;
 import telran.ashkelon2020.book.model.Author;
 import telran.ashkelon2020.book.model.Book;
 import telran.ashkelon2020.book.model.Publisher;
